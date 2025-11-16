@@ -65,7 +65,7 @@ export default function MakeupPortfolio() {
   const [selectedImage, setSelectedImage] = useState<
     (typeof portfolioItems)[0] | null
   >(null);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [, setCurrentIndex] = useState(0);
 
   const categories = [
     "All",

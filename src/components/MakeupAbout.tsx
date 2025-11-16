@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Award, Heart, Sparkles } from "lucide-react";
+import { Award, Sparkles } from "lucide-react";
 
 export default function MakeupAbout() {
   const [isVisible, setIsVisible] = useState(false);
